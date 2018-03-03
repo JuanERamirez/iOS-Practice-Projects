@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XkN-0W-MZx">
+                                <rect key="frame" x="82" y="78" width="211" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="wN9-uY-UpY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="Pff-2B-Ja6">
+                                <rect key="frame" x="51" y="218" width="273" height="230"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gof-Ir-Yeg">
+                                <rect key="frame" x="97" y="551" width="181" height="30"/>
+                                <state key="normal" title="Press to Become Rich!!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="Rich:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MRE-Wf-mxI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12052116649491451" green="0.33804348792348587" blue="0.4948794254234859" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gof-Ir-Yeg" firstAttribute="centerX" secondItem="Pff-2B-Ja6" secondAttribute="centerX" id="Ais-Yn-Xsp"/>
+                            <constraint firstItem="Pff-2B-Ja6" firstAttribute="top" secondItem="XkN-0W-MZx" secondAttribute="bottom" constant="66" id="HRe-II-lWJ"/>
+                            <constraint firstItem="XkN-0W-MZx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="58" id="MeB-2z-RjY"/>
+                            <constraint firstItem="gof-Ir-Yeg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="81" id="Snn-NG-cZ7"/>
+                            <constraint firstItem="XkN-0W-MZx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="66" id="Xgx-jd-Jko"/>
+                            <constraint firstItem="XkN-0W-MZx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aBe-FC-tVH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gof-Ir-Yeg" secondAttribute="bottom" constant="86" id="gkp-wG-Mlm"/>
+                            <constraint firstItem="XkN-0W-MZx" firstAttribute="centerX" secondItem="Pff-2B-Ja6" secondAttribute="centerX" id="jXl-dj-G6h"/>
+                            <constraint firstItem="Pff-2B-Ja6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="tka-eo-Cot"/>
+                            <constraint firstItem="Pff-2B-Ja6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="x8C-E6-gUp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="Pff-2B-Ja6" id="7aJ-pN-Cct"/>
+                        <outlet property="label" destination="XkN-0W-MZx" id="DJ9-vj-tfH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176.80000000000001" y="115.59220389805098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coal" width="226" height="192"/>
+    </resources>
+</document>
