@@ -33,7 +33,7 @@
                                     <constraint firstAttribute="height" constant="120" id="7WY-Aa-AjA"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-Zb-cMG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice2" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-Zb-cMG">
                                 <rect key="frame" x="215" y="273" width="120" height="120"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Kb7-c6-hEY">
@@ -50,7 +50,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="rolluButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Rb-rz-FdM"/>
+                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CcI-hB-rat"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -88,6 +88,7 @@
     </scenes>
     <resources>
         <image name="dice1" width="150" height="150"/>
+        <image name="dice2" width="150" height="150"/>
         <image name="diceeLogo" width="147" height="96"/>
         <image name="newbackground" width="333" height="311"/>
     </resources>
