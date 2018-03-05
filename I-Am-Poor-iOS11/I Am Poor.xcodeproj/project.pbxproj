@@ -281,7 +281,7 @@
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JuanRamirez.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.calpoly.jramir94.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -296,7 +296,7 @@
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JuanRamirez.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.calpoly.jramir94.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
