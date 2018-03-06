@@ -98,7 +98,7 @@
 				TargetAttributes = {
 					63DE37961D6DD3EF000AB4B6 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = G259YGWME2;
+						DevelopmentTeam = 32C7P2K638;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -277,11 +277,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G259YGWME2;
+				DEVELOPMENT_TEAM = 32C7P2K638;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.calpoly.jramir94.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JuanRamirez.I-Am-Poor11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -292,11 +292,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G259YGWME2;
+				DEVELOPMENT_TEAM = 32C7P2K638;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.calpoly.jramir94.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JuanRamirez.I-Am-Poor11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-BoldItalic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Magic_8_Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pregúntame cabron, pregúntame!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRR-oa-WId">
+                                <rect key="frame" x="16" y="75" width="343" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="9aw-kg-5z2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pregocho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwr-qJ-Acj">
+                                <rect key="frame" x="114" y="27" width="146" height="40"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zTZ-ui-aM9">
+                                <rect key="frame" x="31" y="203" width="312" height="261"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="261" id="Qy1-l2-kfc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Gy-9w-skM">
+                                <rect key="frame" x="121" y="520" width="133" height="39"/>
+                                <color key="backgroundColor" red="0.098609047409999998" green="0.50076715630000002" blue="0.65667824480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Pregúntame">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J44-qj-EPT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12903059731716821" green="0.65525716945887358" blue="0.85926787048426978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zTZ-ui-aM9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="3Gy-v4-Vtm"/>
+                            <constraint firstItem="7Gy-9w-skM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="Ic1-Vc-45j"/>
+                            <constraint firstItem="Hwr-qJ-Acj" firstAttribute="centerX" secondItem="zTZ-ui-aM9" secondAttribute="centerX" id="Kaz-62-J3q"/>
+                            <constraint firstItem="Hwr-qJ-Acj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="114" id="NKc-ch-Bpv"/>
+                            <constraint firstItem="zTZ-ui-aM9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Z9H-Vq-c5t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Gy-9w-skM" secondAttribute="bottom" constant="108" id="b9x-Xl-2v1"/>
+                            <constraint firstItem="zTZ-ui-aM9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bJC-lt-HK0"/>
+                            <constraint firstItem="xRR-oa-WId" firstAttribute="top" secondItem="Hwr-qJ-Acj" secondAttribute="bottom" constant="8" symbolic="YES" id="dLo-uw-VEi"/>
+                            <constraint firstItem="zTZ-ui-aM9" firstAttribute="top" secondItem="xRR-oa-WId" secondAttribute="bottom" constant="53" id="kr2-Y8-9Ct"/>
+                            <constraint firstItem="Hwr-qJ-Acj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="7" id="okr-Ds-Eb8"/>
+                            <constraint firstItem="7Gy-9w-skM" firstAttribute="top" secondItem="zTZ-ui-aM9" secondAttribute="bottom" constant="56" id="pqI-q1-HT8"/>
+                            <constraint firstItem="xRR-oa-WId" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="urw-Kd-4hL"/>
+                            <constraint firstItem="7Gy-9w-skM" firstAttribute="centerX" secondItem="zTZ-ui-aM9" secondAttribute="centerX" id="zkV-Xc-Qho"/>
+                            <constraint firstItem="Hwr-qJ-Acj" firstAttribute="centerX" secondItem="xRR-oa-WId" secondAttribute="centerX" id="zrl-Ra-vZl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="appName" destination="Hwr-qJ-Acj" id="pek-8S-vNf"/>
+                        <outlet property="imageView" destination="zTZ-ui-aM9" id="kB8-bO-o9E"/>
+                        <outlet property="subtitle" destination="xRR-oa-WId" id="Mou-ox-ac9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A308D749204533EC00AB9981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D748204533EC00AB9981 /* AppDelegate.swift */; };
-		A308D74B204533EC00AB9981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D74A204533EC00AB9981 /* ViewController.swift */; };
-		A308D74E204533EC00AB9981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A308D74C204533EC00AB9981 /* Main.storyboard */; };
-		A308D750204533EC00AB9981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A308D74F204533EC00AB9981 /* Assets.xcassets */; };
-		A308D753204533EC00AB9981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A308D751204533EC00AB9981 /* LaunchScreen.storyboard */; };
+		1C9E2EF6204D473500F7427E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E2EF5204D473500F7427E /* AppDelegate.swift */; };
+		1C9E2EF8204D473500F7427E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E2EF7204D473500F7427E /* ViewController.swift */; };
+		1C9E2EFB204D473500F7427E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E2EF9204D473500F7427E /* Main.storyboard */; };
+		1C9E2EFD204D473500F7427E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E2EFC204D473500F7427E /* Assets.xcassets */; };
+		1C9E2F00204D473500F7427E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E2EFE204D473500F7427E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A308D745204533EC00AB9981 /* Dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A308D748204533EC00AB9981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A308D74A204533EC00AB9981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A308D74D204533EC00AB9981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A308D74F204533EC00AB9981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A308D752204533EC00AB9981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A308D754204533EC00AB9981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9E2EF2204D473500F7427E /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9E2EF5204D473500F7427E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C9E2EF7204D473500F7427E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C9E2EFA204D473500F7427E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C9E2EFC204D473500F7427E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C9E2EFF204D473500F7427E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C9E2F01204D473500F7427E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A308D742204533EC00AB9981 /* Frameworks */ = {
+		1C9E2EEF204D473500F7427E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A308D73C204533EC00AB9981 = {
+		1C9E2EE9204D473500F7427E = {
 			isa = PBXGroup;
 			children = (
-				A308D747204533EC00AB9981 /* Dicee */,
-				A308D746204533EC00AB9981 /* Products */,
+				1C9E2EF4204D473500F7427E /* Magic 8 Ball */,
+				1C9E2EF3204D473500F7427E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A308D746204533EC00AB9981 /* Products */ = {
+		1C9E2EF3204D473500F7427E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A308D745204533EC00AB9981 /* Dicee.app */,
+				1C9E2EF2204D473500F7427E /* Magic 8 Ball.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A308D747204533EC00AB9981 /* Dicee */ = {
+		1C9E2EF4204D473500F7427E /* Magic 8 Ball */ = {
 			isa = PBXGroup;
 			children = (
-				A308D748204533EC00AB9981 /* AppDelegate.swift */,
-				A308D74A204533EC00AB9981 /* ViewController.swift */,
-				A308D74C204533EC00AB9981 /* Main.storyboard */,
-				A308D74F204533EC00AB9981 /* Assets.xcassets */,
-				A308D751204533EC00AB9981 /* LaunchScreen.storyboard */,
-				A308D754204533EC00AB9981 /* Info.plist */,
+				1C9E2EF5204D473500F7427E /* AppDelegate.swift */,
+				1C9E2EF7204D473500F7427E /* ViewController.swift */,
+				1C9E2EF9204D473500F7427E /* Main.storyboard */,
+				1C9E2EFC204D473500F7427E /* Assets.xcassets */,
+				1C9E2EFE204D473500F7427E /* LaunchScreen.storyboard */,
+				1C9E2F01204D473500F7427E /* Info.plist */,
 			);
-			path = Dicee;
+			path = "Magic 8 Ball";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A308D744204533EC00AB9981 /* Dicee */ = {
+		1C9E2EF1204D473500F7427E /* Magic 8 Ball */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A308D757204533EC00AB9981 /* Build configuration list for PBXNativeTarget "Dicee" */;
+			buildConfigurationList = 1C9E2F04204D473500F7427E /* Build configuration list for PBXNativeTarget "Magic 8 Ball" */;
 			buildPhases = (
-				A308D741204533EC00AB9981 /* Sources */,
-				A308D742204533EC00AB9981 /* Frameworks */,
-				A308D743204533EC00AB9981 /* Resources */,
+				1C9E2EEE204D473500F7427E /* Sources */,
+				1C9E2EEF204D473500F7427E /* Frameworks */,
+				1C9E2EF0204D473500F7427E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Dicee;
-			productName = Dicee;
-			productReference = A308D745204533EC00AB9981 /* Dicee.app */;
+			name = "Magic 8 Ball";
+			productName = "Magic 8 Ball";
+			productReference = 1C9E2EF2204D473500F7427E /* Magic 8 Ball.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A308D73D204533EC00AB9981 /* Project object */ = {
+		1C9E2EEA204D473500F7427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Juan Ramirez";
 				TargetAttributes = {
-					A308D744204533EC00AB9981 = {
+					1C9E2EF1204D473500F7427E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A308D740204533EC00AB9981 /* Build configuration list for PBXProject "Dicee" */;
+			buildConfigurationList = 1C9E2EED204D473500F7427E /* Build configuration list for PBXProject "Magic 8 Ball" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = A308D73C204533EC00AB9981;
-			productRefGroup = A308D746204533EC00AB9981 /* Products */;
+			mainGroup = 1C9E2EE9204D473500F7427E;
+			productRefGroup = 1C9E2EF3204D473500F7427E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A308D744204533EC00AB9981 /* Dicee */,
+				1C9E2EF1204D473500F7427E /* Magic 8 Ball */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A308D743204533EC00AB9981 /* Resources */ = {
+		1C9E2EF0204D473500F7427E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A308D753204533EC00AB9981 /* LaunchScreen.storyboard in Resources */,
-				A308D750204533EC00AB9981 /* Assets.xcassets in Resources */,
-				A308D74E204533EC00AB9981 /* Main.storyboard in Resources */,
+				1C9E2F00204D473500F7427E /* LaunchScreen.storyboard in Resources */,
+				1C9E2EFD204D473500F7427E /* Assets.xcassets in Resources */,
+				1C9E2EFB204D473500F7427E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A308D741204533EC00AB9981 /* Sources */ = {
+		1C9E2EEE204D473500F7427E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A308D74B204533EC00AB9981 /* ViewController.swift in Sources */,
-				A308D749204533EC00AB9981 /* AppDelegate.swift in Sources */,
+				1C9E2EF8204D473500F7427E /* ViewController.swift in Sources */,
+				1C9E2EF6204D473500F7427E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A308D74C204533EC00AB9981 /* Main.storyboard */ = {
+		1C9E2EF9204D473500F7427E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A308D74D204533EC00AB9981 /* Base */,
+				1C9E2EFA204D473500F7427E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A308D751204533EC00AB9981 /* LaunchScreen.storyboard */ = {
+		1C9E2EFE204D473500F7427E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A308D752204533EC00AB9981 /* Base */,
+				1C9E2EFF204D473500F7427E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A308D755204533EC00AB9981 /* Debug */ = {
+		1C9E2F02204D473500F7427E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		A308D756204533EC00AB9981 /* Release */ = {
+		1C9E2F03204D473500F7427E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,32 +270,32 @@
 			};
 			name = Release;
 		};
-		A308D758204533EC00AB9981 /* Debug */ = {
+		1C9E2F05204D473500F7427E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32C7P2K638;
-				INFOPLIST_FILE = Dicee/Info.plist;
+				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JuanRamirez.Dicee;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JuanRamirez.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		A308D759204533EC00AB9981 /* Release */ = {
+		1C9E2F06204D473500F7427E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32C7P2K638;
-				INFOPLIST_FILE = Dicee/Info.plist;
+				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JuanRamirez.Dicee;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JuanRamirez.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -305,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A308D740204533EC00AB9981 /* Build configuration list for PBXProject "Dicee" */ = {
+		1C9E2EED204D473500F7427E /* Build configuration list for PBXProject "Magic 8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A308D755204533EC00AB9981 /* Debug */,
-				A308D756204533EC00AB9981 /* Release */,
+				1C9E2F02204D473500F7427E /* Debug */,
+				1C9E2F03204D473500F7427E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A308D757204533EC00AB9981 /* Build configuration list for PBXNativeTarget "Dicee" */ = {
+		1C9E2F04204D473500F7427E /* Build configuration list for PBXNativeTarget "Magic 8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A308D758204533EC00AB9981 /* Debug */,
-				A308D759204533EC00AB9981 /* Release */,
+				1C9E2F05204D473500F7427E /* Debug */,
+				1C9E2F06204D473500F7427E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A308D73D204533EC00AB9981 /* Project object */;
+	rootObject = 1C9E2EEA204D473500F7427E /* Project object */;
 }
